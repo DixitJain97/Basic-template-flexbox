@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+
+body > header {
+  background-color: #228b22;
+}
+body > header > .title {
+  text-align: center;
+}
+.title > h1 {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: -2px 2px 12px rgba(0, 0, 0, 0.55);
+  display: inline-block;
+}
+.title > .logo {
+  font-size: 40px;
+  display: inline-block;
+  margin-right: 0px;
+}
+header > nav {
+  padding: 12px;
+  background-color: #32cd32;
+  margin: 10px;
+  border-bottom: 10px solid #228b22;
+}
+header > nav > ul {
+  list-style-type: none;
+  font-family: "Montserrat", "sans-serif";
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+  margin: 0px;
+}
+
+body > section {
+  background-color: #228b22;
+  display: flex;
+  margin-bottom: 10px;
+}
+section > .content {
+  max-width: 70%;
+  margin: 10px 0px 10px 10px;
+  background-color: #32cd32;
+  padding: 10px 10px 10px 10px;
+}
+section > .content > .heading {
+  font-size: 32px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+section > .content > p {
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+section > .fav_photos {
+  margin: 10px 10px 10px 10px;
+  background-color: #32cd32;
+  padding: 10px 10px 10px 10px;
+}
+section > .fav_photos > .heading {
+  font-size: 32px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.fav_photos > .image-section {
+  display: flex;
+  margin-bottom: 5px;
+}
+.fav_photos > .image-section > img {
+  max-width: 50%;
+}
+
+body > footer {
+  background-color: #228b22;
+  padding: 20px 10px;
+}
+body > footer > p {
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body > footer > p > a {
+  margin-right: 5px;
+}
