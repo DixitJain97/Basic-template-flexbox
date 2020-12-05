@@ -16,11 +16,11 @@ body > header > .title {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-shadow: -2px 2px 12px rgba(0, 0, 0, 0.55);
   display: inline-block;
+  text-align: center;
 }
 .title > .logo {
   font-size: 40px;
   display: inline-block;
-  margin-right: 0px;
 }
 header > nav {
   padding: 12px;
@@ -90,4 +90,5 @@ body > footer > p {
 }
 body > footer > p > a {
   margin-right: 5px;
+  color: #1e1923;
 }
